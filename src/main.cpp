@@ -40,7 +40,7 @@ class $modify (RewardsPage)
 			particles->setVisible(left || right);
 	}
 
-	virtual TodoReturn rewardsStatusFailed()
+	virtual void rewardsStatusFailed()
 	{
 		if (this == currentPage)
 		{
@@ -53,7 +53,7 @@ class $modify (RewardsPage)
 		RewardsPage::rewardsStatusFailed();
 	}
 
-	virtual TodoReturn rewardsStatusFinished(int p0)
+	virtual void rewardsStatusFinished(int p0)
 	{
 		RewardsPage::rewardsStatusFinished(p0);
 

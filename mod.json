@@ -1,0 +1,13 @@
+{
+	"geode": "2.0.0-beta.23",
+	"version": "v1.0.0",
+	"gd":
+	{
+		"win": "2.204",
+		"android": "*"
+	},
+	"id": "thesillydoggo.dailynotifier",
+	"name": "DailyNotifier",
+	"developer": "TheSillyDoggo",
+	"description": "uhh does stuff"
+}
